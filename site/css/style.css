@@ -116,7 +116,7 @@ nav a:hover {
 
 .authors-card ul {
     list-style: none;
-    text-align: left;
+    text-align: center;
 }
 
 .authors-card li {
@@ -197,6 +197,64 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.about-section {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 900px;
+    width: 90%;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #003087;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-section h3 {
+    font-size: 1.3rem;
+    color: #003087;
+    margin-bottom: 1rem;
+    margin-top: 0.75rem;
+    font-weight: 600;
+}
+
+.about-section p, .about-section ol {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+.about-section ol {
+    padding-left: 1.5rem;
+}
+
+.about-section .project-image {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section video {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 footer {
     background-color: #003087;
     color: white;
@@ -250,4 +308,18 @@ footer {
         padding: 0.5rem 1rem;
         font-size: 0.9rem;
     }
+
+    .annotation-section h2, .about-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .annotation-section p, .about-section p, .about-section ol {
+        font-size: 1rem;
+    }
+
+    .about-section h3 {
+        font-size: 1.3rem;
+    }
+    
 }
+
