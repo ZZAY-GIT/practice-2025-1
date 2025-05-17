@@ -534,16 +534,22 @@ footer {
     }
     
     .team-grid {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-            "main main main"
-            "sub1 sub2 sub3";
+        grid-template-columns: 1fr;
+        transition: grid-template-columns 0.5s ease, opacity 0.5s ease;
     }
 
     .team-card {
         flex-direction: row;
         justify-content: space-between;
-        padding: 2rem;
+        padding: 1rem;
+        min-height: 120px;
+        opacity: 1; /* Убрано скрытие по умолчанию */
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    /* Убираем специфичное скрытие для первой карточки */
+    .team-card:nth-child(1) {
+        opacity: 1; /* Восстанавливаем видимость */
     }
 
     .journal-section h2 {
