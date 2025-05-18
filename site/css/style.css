@@ -197,6 +197,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.resource-icon img {
+    display: block;
+    margin: 0 auto;
+}
+
 .about-section {
     background: rgba(255, 255, 255, 0.95);
     border-radius: 12px;
