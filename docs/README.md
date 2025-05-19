@@ -15,6 +15,7 @@
 - Система контроля версий Git
 
 ## Структура проекта
+```
 project/
 ├── docs # Документация
 │   └── README.md # Основной файл документации
@@ -26,7 +27,15 @@ project/
 │   ├── css
 │   │   └── style.css
 │   ├── files
-│   │   └── video.MP4
+│   │   ├── images
+│   │   │   ├── css-icon.png
+│   │   │   ├── git-icon.png
+│   │   │   ├── html-icon.png
+│   │   │   ├── markdown-icon.png
+│   │   │   ├── office-icon.png
+│   │   │   └── university-icon.png
+│   │   └── videos
+│   │       └── video.mp4
 │   ├── about.html
 │   ├── index.html
 │   ├── journal.html
@@ -37,6 +46,7 @@ project/
     ├── README.md
     └── terms.md
 
+```
 
 
 ## Этапы работы
